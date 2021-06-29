@@ -131,6 +131,7 @@ void solenoids_on(){
 	pcf8574_U1.digitalWrite(P7, HIGH);
 
     pcf8574_U2.digitalWrite(P0, HIGH);
+	pcf8574_U2.digitalWrite(P1, HIGH);
 	pcf8574_U2.digitalWrite(P2, HIGH);
 	pcf8574_U2.digitalWrite(P3, HIGH);
 	pcf8574_U2.digitalWrite(P4, HIGH);
@@ -164,6 +165,7 @@ void solenoids_off(){
 	pcf8574_U1.digitalWrite(P7, LOW);
 
     pcf8574_U2.digitalWrite(P0, LOW);
+	pcf8574_U2.digitalWrite(P1, LOW);
 	pcf8574_U2.digitalWrite(P2, LOW);
 	pcf8574_U2.digitalWrite(P3, LOW);
 	pcf8574_U2.digitalWrite(P4, LOW);
