@@ -19,24 +19,24 @@ PCF8574 pcf8574_U2(0x24);
 
 
 /* does a pin mapping for the pumps as on the dev board */
-#define pump_1 4; 
-#define pump_2 5;
+#define pump_1 4
+#define pump_2 5
 
 /* does a pin mapping for the solenoids as on the dev board */
-#define solenoid_1 6;
-#define solenoid_2 7;
-#define solenoid_3 8;
-#define solenoid_4 9;
-#define solenoid_5 10;
-#define solenoid_6 11;
-#define solenoid_7 12;
-#define solenoid_8 13;
-#define solenoid_9 A0;
-#define solenoid_10 A1;
-#define solenoid_11 A2;
-#define solenoid_12 A3;
-#define solenoid_13 A6;
-#define solenoid_14 A7;
+#define solenoid_1 6
+#define solenoid_2 7
+#define solenoid_3 8
+#define solenoid_4 9
+#define solenoid_5 10
+#define solenoid_6 11
+#define solenoid_7 12
+#define solenoid_8 13
+#define solenoid_9 A0
+#define solenoid_10 A1
+#define solenoid_11 A2
+#define solenoid_12 A3
+#define solenoid_13 A6
+#define solenoid_14 A7
 
 void setup(){
 	Serial.begin(9600);
